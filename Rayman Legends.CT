@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="42">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Basic"</Description>
+      <Color>FF80FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"start"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>00FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>getAddress('Rayman Legends.exe')</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"end"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>getAddress('Rayman Legends.exe') + getModuleSize('Rayman Legends.exe')</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"Lums"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <Color>FF80FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"show fake Lums"</Description>
+          <Color>00FFFF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE5B50</Address>
+          <Offsets>
+            <Offset>B4</Offset>
+            <Offset>0</Offset>
+            <Offset>220</Offset>
+            <Offset>14</Offset>
+            <Offset>1F4</Offset>
+            <Offset>74</Offset>
+            <Offset>20</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"show display Lums"</Description>
+          <Color>00FFFF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE9770</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>20</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"record Lums"</Description>
+          <Color>00FFFF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE969C</Address>
+          <Offsets>
+            <Offset>3F8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"Health"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <Color>FF80FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>0</ID>
+          <Description>"Infinite Health"</Description>
+          <Color>00FF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+"Rayman Legends.exe"+1C86C5:
+add eax,[ebx+08]
+
+
+
+[DISABLE]
+"Rayman Legends.exe"+1C86C5:
+sub eax,[ebp+08]
+
+//Alt: db 2B 45 08 33 D2
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Mission"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <Color>FF80FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>12215</ID>
+          <Description>"Teensies Skin1"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>B94</Offset>
+            <Offset>814</Offset>
+            <Offset>428</Offset>
+            <Offset>B5C</Offset>
+            <Offset>D50</Offset>
+            <Offset>1BC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12214</ID>
+          <Description>"Teensies Skin 2"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>F08</Offset>
+            <Offset>7C4</Offset>
+            <Offset>428</Offset>
+            <Offset>B5C</Offset>
+            <Offset>D50</Offset>
+            <Offset>1BC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12617</ID>
+          <Description>"Last Unlock Teensies"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>874</Offset>
+            <Offset>850</Offset>
+            <Offset>428</Offset>
+            <Offset>B5C</Offset>
+            <Offset>D50</Offset>
+            <Offset>1BC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6489</ID>
+          <Description>"TOAD STORY UNLOCK"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>8E8</Offset>
+            <Offset>864</Offset>
+            <Offset>428</Offset>
+            <Offset>B5C</Offset>
+            <Offset>D50</Offset>
+            <Offset>1BC</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>13261</ID>
+              <Description>"TOAD STORY SKIN 1"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>6CC</Offset>
+                <Offset>8A0</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>13762</ID>
+              <Description>"TOAD STORY SKIN 2"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>DA0</Offset>
+                <Offset>800</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>15410</ID>
+              <Description>"LAST UNLOCK TOAD STORY"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>D3C</Offset>
+                <Offset>800</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4572</ID>
+          <Description>"FIESTA DE LOSE MUER UNLOCK"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>2EC</Offset>
+            <Offset>60</Offset>
+            <Offset>8</Offset>
+            <Offset>3E4</Offset>
+            <Offset>74</Offset>
+            <Offset>3B8</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>15973</ID>
+              <Description>"FIESTA DE LOSE MUER SKIN 1"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>EE0</Offset>
+                <Offset>800</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16030</ID>
+              <Description>"FIESTA DE LOSE MUER SKIN 2"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>834</Offset>
+                <Offset>8A0</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16031</ID>
+              <Description>"LAST UNLOCK FIESTA DE LOSE MUER "</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>E00</Offset>
+                <Offset>814</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5547</ID>
+          <Description>"LUMS LINDER THE SER UNLOCK"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>440</Offset>
+            <Offset>60</Offset>
+            <Offset>8</Offset>
+            <Offset>3E4</Offset>
+            <Offset>D0C</Offset>
+            <Offset>934</Offset>
+            <Offset>1BC</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>16365</ID>
+              <Description>"LUMS LINDER THE SER SKIN 1"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>E98</Offset>
+                <Offset>83C</Offset>
+                <Offset>428</Offset>
+                <Offset>758</Offset>
+                <Offset>3B8</Offset>
+                <Offset>C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16363</ID>
+              <Description>"LUMS LINDER THE SER SKIN 2"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>EAC</Offset>
+                <Offset>83C</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16364</ID>
+              <Description>" LAST UNLOCK LUMS LINDER THE SER"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>E48</Offset>
+                <Offset>83C</Offset>
+                <Offset>428</Offset>
+                <Offset>5E0</Offset>
+                <Offset>3B8</Offset>
+                <Offset>C</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6488</ID>
+          <Description>"OLYMPUS MAXIMUS"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>5BC</Offset>
+            <Offset>43C</Offset>
+            <Offset>A4</Offset>
+            <Offset>A4</Offset>
+            <Offset>3B8</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>16368</ID>
+              <Description>"OLYMPUS MAXIMUS SKIN 1"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>DD4</Offset>
+                <Offset>864</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16366</ID>
+              <Description>"OLYMPUS MAXIMUS SKIN 2"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>DE8</Offset>
+                <Offset>864</Offset>
+                <Offset>428</Offset>
+                <Offset>B5C</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16367</ID>
+              <Description>"LAST UNLOCK OLYMPUS MAXIMUS "</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>E14</Offset>
+                <Offset>850</Offset>
+                <Offset>4B4</Offset>
+                <Offset>D44</Offset>
+                <Offset>D50</Offset>
+                <Offset>1BC</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"LIVING PARTY UNLOCK"</Description>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE283C</Address>
+          <Offsets>
+            <Offset>AD0</Offset>
+            <Offset>60</Offset>
+            <Offset>8</Offset>
+            <Offset>3E4</Offset>
+            <Offset>74</Offset>
+            <Offset>3B8</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>12638</ID>
+              <Description>"UNLOCK LAST SKIN 700"</Description>
+              <Color>FFFF00</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"Rayman Legends.exe"+00AE283C</Address>
+              <Offsets>
+                <Offset>EA4</Offset>
+                <Offset>43C</Offset>
+                <Offset>DC4</Offset>
+                <Offset>934</Offset>
+                <Offset>274</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"Lucky"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <Color>FF80FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>180</ID>
+          <Description>"Lucky Number"</Description>
+          <Color>008000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00AE9770</Address>
+          <Offsets>
+            <Offset>208</Offset>
+            <Offset>8</Offset>
+            <Offset>60</Offset>
+            <Offset>8</Offset>
+            <Offset>C</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16370</ID>
+      <Description>"Timer"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <Color>FF80FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+ 
+ 
+[DISABLE]
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>16372</ID>
+          <Description>"Mission Save Rocket"</Description>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Rayman Legends.exe"+00A44154</Address>
+          <Offsets>
+            <Offset>E4</Offset>
+            <Offset>C</Offset>
+            <Offset>0</Offset>
+            <Offset>294</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16373</ID>
+      <Description>"Create By Mocio Ragnar"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>0000FF</Color>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>069E4140</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of add eax,[ecx+00000148]</Description>
+      <AddressString>Rayman Legends.exe+6FF720</AddressString>
+      <Before>
+        <Byte>81</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>03</Byte>
+        <Byte>81</Byte>
+        <Byte>48</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>3B</Byte>
+        <Byte>46</Byte>
+        <Byte>30</Byte>
+        <Byte>74</Byte>
+        <Byte>08</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [esi+4C],eax</Description>
+      <AddressString>Rayman Legends.exe+6F96D3</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>C1</Byte>
+        <Byte>D9</Byte>
+        <Byte>E8</Byte>
+        <Byte>51</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+        <Byte>4C</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>1C</Byte>
+        <Byte>24</Byte>
+        <Byte>8B</Byte>
+        <Byte>0D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of pushad </Description>
+      <AddressString>Rayman Legends.exe+AE283C</AddressString>
+      <Before>
+        <Byte>3F</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>60</Byte>
+      </Actual>
+      <After>
+        <Byte>FD</Byte>
+        <Byte>CB</Byte>
+        <Byte>07</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of add [eax],al</Description>
+      <AddressString>Rayman Legends.exe+AE2846</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of clc </Description>
+      <AddressString>Rayman Legends.exe+AE283D</AddressString>
+      <Before>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>F8</Byte>
+      </Actual>
+      <After>
+        <Byte>21</Byte>
+        <Byte>07</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fadd dword ptr [esi+000000C0]</Description>
+      <AddressString>Rayman Legends.exe+37A994</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>5D</Byte>
+        <Byte>FC</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>86</Byte>
+        <Byte>C0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>DA</Byte>
+        <Byte>E9</Byte>
+        <Byte>DF</Byte>
+        <Byte>E0</Byte>
+        <Byte>F6</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fadd dword ptr [esi+000000C0]</Description>
+      <AddressString>Rayman Legends.exe+37A2E0</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>75</Byte>
+        <Byte>5D</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>86</Byte>
+        <Byte>C0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>D8</Byte>
+        <Byte>D9</Byte>
+        <Byte>DF</Byte>
+        <Byte>E0</Byte>
+        <Byte>39</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fadd dword ptr [esi+000000C0]</Description>
+      <AddressString>Rayman Legends.exe+37A340</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>39</Byte>
+        <Byte>7D</Byte>
+        <Byte>FC</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>86</Byte>
+        <Byte>C0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>75</Byte>
+        <Byte>0C</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fadd dword ptr [esi+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1DA8BF</AddressString>
+      <Before>
+        <Byte>0A</Byte>
+        <Byte>0F</Byte>
+        <Byte>B7</Byte>
+        <Byte>45</Byte>
+        <Byte>0A</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>86</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>0D</Byte>
+        <Byte>00</Byte>
+        <Byte>0C</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fstp dword ptr [esi+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1DA16A</AddressString>
+      <Before>
+        <Byte>D4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>9E</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C7</Byte>
+        <Byte>86</Byte>
+        <Byte>B0</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fld dword ptr [esi+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1DA936</AddressString>
+      <Before>
+        <Byte>BE</Byte>
+        <Byte>F8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>86</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>03</Byte>
+        <Byte>7D</Byte>
+        <Byte>08</Byte>
+        <Byte>D9</Byte>
+        <Byte>07</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fcomp dword ptr [esi+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1DA9E6</AddressString>
+      <Before>
+        <Byte>F6</Byte>
+        <Byte>C4</Byte>
+        <Byte>41</Byte>
+        <Byte>75</Byte>
+        <Byte>6C</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>9E</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>DF</Byte>
+        <Byte>E0</Byte>
+        <Byte>F6</Byte>
+        <Byte>C4</Byte>
+        <Byte>41</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fld dword ptr [esi+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1DAA65</AddressString>
+      <Before>
+        <Byte>F6</Byte>
+        <Byte>C4</Byte>
+        <Byte>41</Byte>
+        <Byte>75</Byte>
+        <Byte>63</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>86</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>DE</Byte>
+        <Byte>D9</Byte>
+        <Byte>DF</Byte>
+        <Byte>E0</Byte>
+        <Byte>F6</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fld dword ptr [esi+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1D8190</AddressString>
+      <Before>
+        <Byte>E8</Byte>
+        <Byte>C0</Byte>
+        <Byte>1B</Byte>
+        <Byte>1A</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>86</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>51</Byte>
+        <Byte>8B</Byte>
+        <Byte>CF</Byte>
+        <Byte>D9</Byte>
+        <Byte>1C</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fld dword ptr [ebx+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1D7169</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>89</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>83</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>45</Byte>
+        <Byte>10</Byte>
+        <Byte>DC</Byte>
+        <Byte>25</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fld dword ptr [edi+000000E4]</Description>
+      <AddressString>Rayman Legends.exe+1D80C2</AddressString>
+      <Before>
+        <Byte>D9</Byte>
+        <Byte>5E</Byte>
+        <Byte>04</Byte>
+        <Byte>EB</Byte>
+        <Byte>54</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>87</Byte>
+        <Byte>E4</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>06</Byte>
+        <Byte>DC</Byte>
+        <Byte>25</Byte>
+        <Byte>C8</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov edi,ebx</Description>
+      <AddressString>Rayman Legends.exe+61640</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>8D</Byte>
+        <Byte>75</Byte>
+        <Byte>D0</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>FB</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>83</Byte>
+        <Byte>C3</Byte>
+        <Byte>30</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [eax],dl</Description>
+      <AddressString>Rayman Legends.exe+201B3</AddressString>
+      <Before>
+        <Byte>46</Byte>
+        <Byte>0C</Byte>
+        <Byte>8B</Byte>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>55</Byte>
+        <Byte>FD</Byte>
+        <Byte>88</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [eax+01],cl</Description>
+      <AddressString>Rayman Legends.exe+201B9</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>55</Byte>
+        <Byte>FD</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>48</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>4D</Byte>
+        <Byte>FC</Byte>
+        <Byte>88</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fld dword ptr [eax+edx+24]</Description>
+      <AddressString>Rayman Legends.exe+63C99</AddressString>
+      <Before>
+        <Byte>51</Byte>
+        <Byte>08</Byte>
+        <Byte>8B</Byte>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>44</Byte>
+        <Byte>10</Byte>
+        <Byte>24</Byte>
+      </Actual>
+      <After>
+        <Byte>8D</Byte>
+        <Byte>44</Byte>
+        <Byte>10</Byte>
+        <Byte>20</Byte>
+        <Byte>8D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of fld dword ptr [eax]</Description>
+      <AddressString>Rayman Legends.exe+20140</AddressString>
+      <Before>
+        <Byte>75</Byte>
+        <Byte>5A</Byte>
+        <Byte>8B</Byte>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>5D</Byte>
+        <Byte>08</Byte>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [eax+03],cl</Description>
+      <AddressString>Rayman Legends.exe+201C3</AddressString>
+      <Before>
+        <Byte>4D</Byte>
+        <Byte>FC</Byte>
+        <Byte>88</Byte>
+        <Byte>50</Byte>
+        <Byte>02</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>48</Byte>
+        <Byte>03</Byte>
+      </Actual>
+      <After>
+        <Byte>5E</Byte>
+        <Byte>8B</Byte>
+        <Byte>E5</Byte>
+        <Byte>5D</Byte>
+        <Byte>C2</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [eax+02],dl</Description>
+      <AddressString>Rayman Legends.exe+201C0</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>4D</Byte>
+        <Byte>FC</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>50</Byte>
+        <Byte>02</Byte>
+      </Actual>
+      <After>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>5E</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
